@@ -1,0 +1,10 @@
+.content {
+    width: 90%;
+    height: 100%;
+    border: 15px;
+    padding: 50px;
+    background: white;
+    position: absolute;
+    top: 10%;
+    align-content: center;
+  }
