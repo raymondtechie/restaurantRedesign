@@ -10,20 +10,28 @@ main {
 
 .landing {
   min-height: 100vh; 
-  background: url("../images/bibimbap_bowl.jpg");
-  background-size: cover;
-  padding: 0rem 5rem;
+  /* background: url("../images/bibimbap_bowl.jpg");
+  background-size: cover; */
 }
+
 
 #logo{
   font-family: "Righteous";
   font-weight: lighter;
   font-size: 5em;
-  color: #261B1C;
+  color: #E6D8A9;
+  text-shadow: 4px 4px #292E2A; 
+  position: fixed;
+  padding: 0rem 5rem;
+}
+.rice-logo{
+  width: 75px;
+  fill: #E6D8A9;
 }
 
 .egg-icon{
   color: #E6D8A9;
+  padding: 0;
 }
 .big-text{
   font-family: 'Righteous', sans-serif;;
@@ -33,9 +41,20 @@ main {
   transform: translate(-50%, -30%);
   text-align: center;
   font-size: 6em;
-  text-shadow: 3px 3px #A35523; 
-  color:#261B1C;
+  color: #292E2A;
+  text-shadow: 2px 2px #E6D8A9; 
   width: 100%;
+}
+
+.background-image{
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  position: fixed;
+  /* -webkit-filter: grayscale(1);
+  filter: grayscale(1); */
 }
 /* .big-text{
   font-family: 'Righteous', sans-serif;;
@@ -82,7 +101,7 @@ main {
 
 .btn-white{
   background: #E6D8A9;
-  color:#261B1C;
+  color:#292E2A;
 }
 
 .btn:hover{
@@ -137,7 +156,7 @@ main {
 /* Intro animation */
 
 .intro{
-  background: #261B1C;
+  background: #958877;
   position: fixed;
   top: 0;
   left: 0;
@@ -150,13 +169,13 @@ main {
 }
 
 .intro-text{
-  color: #8D8BA4;
+  color: #292E2A;
   font-family: "Heebo", sans-serif;
   font-size: 3rem;
 }
 
 .slider{
-  background: black;
+  background: #A7B0A7;
   position: fixed;
   top: 0;
   left: 0;
@@ -166,7 +185,7 @@ main {
 }
 
 .hide{
-  background: #261B1C;
+  background: #958877;
   overflow: hidden;
 }  
 
@@ -197,7 +216,7 @@ ul.transition {
 
 ul.transition li{
   transform: scaleY(0);
-  background: #A35523;
+  background: #292E2A;
   width: 20%;
 }
 
