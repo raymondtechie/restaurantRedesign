@@ -220,6 +220,28 @@ ul.transition li{
   width: 20%;
 }
 
+.center-desc{
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.nav {
+  padding-bottom: 2rem;
+}
+
+.carousel{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+  
+
+
+/* .carousel {
+  width:640px;
+  height:640px;
+  position: absolute;
+} */
+
 /* @media (min-width: 600px) {
   .box{
     text-shadow: none;
@@ -243,3 +265,4 @@ ul.transition li{
     width: 75%;
   }
 }   */
+
